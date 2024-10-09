@@ -26,6 +26,7 @@ services:
     # or you can ssh in container and connect with mongo sh
     # docker exec -it <CONTAINER_ID> /bin/bash
     # mongosh mongodb://rootuser:rootpass@mongodb:27017
+    # note you can use the url above to connect also via intellij idea ultimate client
     depends_on:
       - mongodb
 

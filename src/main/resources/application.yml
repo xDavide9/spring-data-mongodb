@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-data-mongodb
+  data:
+    mongodb:
+      username: rootuser
+      password: rootpass
+      database: amigoscode
+      host: localhost
+      port: 27017
+      authentication-database: admin
+      auto-index-creation: true
+
